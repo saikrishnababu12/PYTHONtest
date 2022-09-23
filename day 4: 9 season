@@ -1,0 +1,28 @@
+a=input("enter the month")
+b=int(input("enter the date"))
+if(b>0):
+    if(a=='March' or a=='April' or a=='May'):
+        if (b>=20):
+            print("the season is currently summer")
+        else:
+            print("the season is currently winter")
+    elif(a=='June' or a=='July' or a=='August'):
+        if(b>=21):
+            print("the season is currently spring")
+        else:
+            print("the season is currently summer")
+    elif(a=='September' or a=='October' or a=='November'):
+        if(b>=22):
+            print("the season is currently fall")
+        else:
+            print("the season is currently spring")
+    elif(a=='December' or a=='January' or a=='February'):
+        if(b>=21):
+            print("the season is currently winter")
+        else:
+            print("the season is currently fall")
+    else:
+        print("enter valid three letters of month")
+else:
+    print("the given date is invalid")
+

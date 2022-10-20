@@ -1,0 +1,11 @@
+try:
+ n=int(input("enter number of rows"))
+ if n>0:
+  for i in range(0,n+1):
+   for j in range(i,0,-1):
+       print(j,end=" ")
+   print("\n")
+ else:
+     print("invalid")
+except:
+    print("invalid")

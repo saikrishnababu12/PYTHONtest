@@ -1,0 +1,14 @@
+try:
+ n=input("Given number:")
+ m=input("CONVERSION(D/O):")
+ if m=='D':
+  i=int(n,2)
+  print("decimal number:",i)
+ elif m=='O':
+     i=int(n,2)
+     print("octal number:",oct(i))
+ else:
+    print("invalid")
+except:
+    print("invalid")
+
